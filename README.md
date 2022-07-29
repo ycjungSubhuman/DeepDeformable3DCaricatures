@@ -1,6 +1,6 @@
 # Deep Deformable 3D Caricature with Learned Shape Control (DD3C)
 
-[[Project page](https://ycjungsubhuman.github.io/DeepDeformable3DCaricature)] [[Additional result gallery](https://ycjungsubhuman.github.io/DeepDeformable3DCaricature/gallery)] [[Video](https://youtu.be/WLMPEaK6E4M)]
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3528233.3530748)] [[Project page](https://ycjungsubhuman.github.io/DeepDeformable3DCaricature)] [[Additional result gallery](https://ycjungsubhuman.github.io/DeepDeformable3DCaricature/gallery)] [[Video](https://youtu.be/WLMPEaK6E4M)]
 
 ![teaser](./imgs/teaser.jpg)
 
