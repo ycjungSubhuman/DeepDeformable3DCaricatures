@@ -144,6 +144,6 @@ series = {SIGGRAPH '22}
 }
 ```
 
-# Acknowledgement
+# Credits
 This implementation builds upon [DIF-Net](https://github.com/microsoft/DIF-Net) and [InterFaceGAN](https://github.com/genforce/interfacegan). We thank the authors for sharing the code for the work publicly.
 
