@@ -1,0 +1,3 @@
+[submodule "dataset/Caricature-Data"]
+	path = dataset/Caricature-Data
+	url = https://github.com/QianyiWu/Caricature-Data

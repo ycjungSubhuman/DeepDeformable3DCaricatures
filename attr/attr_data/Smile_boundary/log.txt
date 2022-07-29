@@ -1,0 +1,10 @@
+[2022-01-23 07:54:07,213][INFO] Filtering training data.
+[2022-01-23 07:54:07,213][INFO] Sorting scores to get positive and negative samples.
+[2022-01-23 07:54:07,214][INFO] Spliting training and validation sets:
+[2022-01-23 07:54:07,214][INFO]   Training: 505 positive, 505 negative.
+[2022-01-23 07:54:07,215][INFO]   Validation: 127 positive, 127 negative.
+[2022-01-23 07:54:07,215][INFO]   Remaining: 0 positive, 4 negative.
+[2022-01-23 07:54:07,215][INFO] Training boundary.
+[2022-01-23 07:54:07,270][INFO] Finish training.
+[2022-01-23 07:54:07,279][INFO] Accuracy for validation set: 188 / 254 = 0.740157
+[2022-01-23 07:54:07,280][INFO] Accuracy for remaining set: 2 / 4 = 0.500000

@@ -1,0 +1,17 @@
+experiment_name: deepdeformable
+logging_root: ./logs-lmk
+summary_root: ./summaries-lmk
+batch_size: 1
+lr: 0.0001
+epochs: 100
+epochs_til_checkpoint: 50
+steps_til_summary: 100
+model_type: sine
+latent_dim: 128
+hidden_num: 128
+num_hidden_layers: 3
+hyper_hidden_layers: 1
+checkpoint_path: ./logs/deepdeformable/checkpoints/model_epoch_1500.pth
+dir_caricshop: ./dataset/3DCaricShop
+dir_caricature_data: ./dataset/Caricature-Data
+
