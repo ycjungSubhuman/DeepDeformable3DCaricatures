@@ -1,4 +1,70 @@
 <html>
-  <head></head>
-  <body><h1>Coming Soon</h1></body>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <style>
+      .content {
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+      }
+      .abstract{
+        text-align:justify;
+      }
+
+      .text{
+        text-align:justify;
+        padding: 0em 1em 0em 1em;
+      }
+
+      /* .paperoverview {
+        margin: 2em 0em 0em 0em;
+        float:left;
+      } */
+
+      .abstractbox{
+        /* float:left; */
+        background-color:antiquewhite;
+        font-size: small;
+        margin: 2em;
+        padding: 0em 1em 0em 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+    <title>Deep Deformable 3D Caricatures with Learned Shape Control</title>
+
+    <h1>Deep Deformable 3D Caricatures with Learned Shape Control</h1>
+    <p><a href="https://ycjung.info/">Yucheol Jung</a>, <a href="http://wonjongg.me/">Wonjong Jang</a>, <a href="https://github.com/kimsj0302">Soongjin Kim</a> <a href="https://jlyang.org/">Jiaolong Yang</a>, <a href="https://www.microsoft.com/en-us/research/people/xtong/">Xin Tong</a>, <a href="http://cg.postech.ac.kr/leesy/">Seungyong Lee</a></p>
+    <p>SIGGRAPH 2022</p>
+    <p> [<a href="https://dl.acm.org/doi/abs/10.1145/3528233.3530748">Paper</a>] [ArXiv (Coming Soon)] [<a href="https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures">GitHub</a>] [<a href="https://youtu.be/WLMPEaK6E4M">Supplementary Video</a>] [<a href="https://ycjungsubhuman.github.io/DeepDeformable3DCaricatures/gallery">Gallery (Including comparison with Alive Caricature)</a>]</p>
+
+    <img src="img/teaser.jpg" width="100%"/>
+
+    <div class="abstractbox">
+    <p class="abstract"><b>Abstract </b> A 3D caricature is an exaggerated 3D depiction of a human face. The goal of this paper is to model the variations of 3D caricatures in a compact parameter space so that we can provide a useful data-driven toolkit for handling 3D caricature deformations. To achieve the goal, we propose an MLP-based framework for building a deformable surface model, which takes a latent code and produces a 3D surface. In the framework, a SIREN MLP models a function that takes a 3D position on a fixed template surface and returns a 3D displacement vector for the input position. We create variations of 3D surfaces by learning a hypernetwork that takes a latent code and produces the parameters of the MLP. Once learned, our deformable model provides a nice editing space for 3D caricatures, supporting label-based semantic editing and point-handle-based deformation, both of which produce highly exaggerated and natural 3D caricature shapes. We also demonstrate other applications of our deformable model, such as automatic 3D caricature creation.</p>
+    </div>
+
+    <!-- <img class="paperoverview" src="img/paper.png" width="20%" /> Paper -->
+
+    <p></p>
+
+    <h2>Overview</h2>
+
+    <img src="img/overview.jpg" width="100%"/>
+    <p class="text">We adopt hyper-network architecture to model the latent space of highly complex 3D caricature shapes. Given a latent code, a SIREN MLP is generated. The SIREN MLP provides a mapping from a 3D coordinate on a fixed template mesh to a 3D displacement that is applied to the point. Once the model is trained, the learned mapping from a latent code to a 3D shape is used for various shape control. </p>
+
+
+    <h2>Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WLMPEaK6E4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    
+  </body>
 </html>
